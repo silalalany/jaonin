@@ -1,0 +1,11 @@
+CREATE TABLE db_announce (
+    	id int(11) NOT NULL  PRIMARY KEY AUTO_INCREMENT,
+    	user varchar(100) NOT NULL,
+    	day varchar(10),
+    	details varchar(500),
+    	province varchar(100),
+    	type varchar(100),
+    	price varchar(100),
+    	volume varchar(10),
+    	love varchar(10)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;

@@ -1,0 +1,5 @@
+CREATE TABLE admin (
+    	id int(11) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    	phone varchar(100) NOT NULL,
+    	password varchar(100)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;

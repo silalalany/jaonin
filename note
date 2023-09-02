@@ -1,0 +1,10 @@
+CREATE TABLE user_account (
+    	id int(11) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    	name varchar(100),
+    	lastname varchar(100),
+    	email varchar(100) NOT NULL,
+    	tell varchar(100) NOT NULL,
+    	birthday varchar(100),
+    	address varchar(200),
+    	password varchar(100)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
